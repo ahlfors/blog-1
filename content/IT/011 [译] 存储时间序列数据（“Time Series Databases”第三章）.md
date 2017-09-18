@@ -1,4 +1,4 @@
-Title: [译] 存储和处理时间序列数据（“Time Series Databases”第三章）
+Title: [译] 存储时间序列数据（“Time Series Databases”第三章）
 Date: 2017-09-18 20:29
 Category: IT
 

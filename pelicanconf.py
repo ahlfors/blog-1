@@ -27,10 +27,11 @@ LINKS = (('GitHub', 'https://goreliu.github.io/'),
 #SOCIAL = (('You can add links in your config file', '#'),
 #          ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 100
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-#THEME = 'plumage'
 STATIC_PATHS = ['images']
+THEME = 'pelican-twitchy'
+DISPLAY_PAGES_ON_MENU = False
