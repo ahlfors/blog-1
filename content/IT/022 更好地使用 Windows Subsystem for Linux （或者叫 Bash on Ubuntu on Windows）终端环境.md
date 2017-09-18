@@ -1,0 +1,32 @@
+Title: 更好地使用 Windows Subsystem for Linux （或者叫 Bash on Ubuntu on Windows）终端环境
+Date: 2017-09-18 20:29
+Category: IT
+
+Windows 10 中包含了一个 WSL （ Windows Subsystem for Linux ）子系统，我们可以在其中运行未经修改过的原生 Linux ELF 可执行文件。利用它我们可以做很多事情，对开发人员和普通用户都是如此。当然对开发人员的吸引力更大一些，因为这意味着在一些情况，不再需要使用 Linux 虚拟机、双系统、 Cygwin/MSYS2 了。
+
+当前版本（ 14901.1000 ） Windows 10 中的 WSL 功能已经比较完善了，和刚出来时不可同日而语，也不再是一个没有实用价值的玩具了（最初的版本连 zsh 和 tmux 等最基本的工具都无法运行，基本没有可用性。但如果现在依然说 WSL 不可用，就有失偏颇了）。但对不想折腾的普通用户来说，用户体验并不好。比如中文显示有问题，不支持中文输入，只支持 16 种颜色，不能隐藏滚动条，不兼容某些命令的输出，不能定制主题和一些其他按键相关配置等。
+
+用过 Cygwin/MSYS2 的朋友都清楚有个名叫 [mintty]( http://mintty.github.io/) 的终端模拟器，体积小巧配置简单，功能也够用，如果能直接用 mintty 作为 WSL 的终端模拟器，用户体验就好很多了。[wsl-terminal]( https://github.com/goreliu/wsl-terminal) 让这成为可能。
+
+![image](https://raw.githubusercontent.com/wiki/goreliu/wsl-terminal/images/wsl-terminal.png)
+
+wsl-terminal 支持如下功能：
+
+1. 优秀的兼容性（中文显示/输入、 24 位颜色、命令输出等都正常了）。
+2. 体积小巧，压缩包仅 1.7 M 多，解压后不到 10 M 。
+3. 配置简单， mintty 可以直接在标题栏右键配置， wsl-terminal 的配置文件也很简单。
+4. 可以直接在资源管理器右键打开终端模拟器并定位到当前目录。
+5. 可以将 .sh/.py/.pl 脚本关联到用 wsl-terminal 运行。
+6. 可以将文本文件关联到用 wsl-terminal 里的 vim 运行。
+7. 支持 tmux ，可以在 tmux 里打开新目录，恢复已有的 tmux 会话等。
+8. 支持在 WSL 里直接运行 Windows 程序。
+
+使用方法：
+
+1. 在 https://github.com/goreliu/wsl-terminal/releases 下载 7z 格式的发布包。
+2. 解压后，直接运行 open-wsl.exe 即可在当前目录打开（可以关联到快捷键）。
+3. 可以运行 `tools/add-open-wsl-here-menu.js` 在资源管理器右键菜单里添加一个 `Open WSL Here` 菜单（`tools/remove-open-wsl-here-menu.js` 删除菜单）。
+4. 可以修改 .sh/.py/.pl/.php 等各种脚本的打开方式为 run-wsl-file.exe ，双击就可以打开。如果需要看结果的话，记得脚本最后加个 sleep 或者 read 。
+5. 可以修改文本文件的打开方式为 vim.exe ，双击就可以用 WSL 里的 vim 打开编辑。
+6. 如果想做 WSL 里边运行 Windows 的软件，运行 outbash-daemon.js ，然后把 bin 里的 wrun 、wstart 、wcmd 复制到 /usr/local/bin （可以直接运行 install_cbwin.sh ），然后 wstart notepad 就可以打开记事本了。cbwin 使用文档： https://github.com/xilun/cbwin
+7. 如果需要使用 tmux，在编辑文件里启用 use_tmux 即可。
