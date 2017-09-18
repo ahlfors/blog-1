@@ -1,5 +1,5 @@
 Title: 让 MSYS2 支持 cygstart
-Date: 2017-09-18 20:29
+Date: 2015-06-13 19:40
 Category: IT
 
 Cygwin中有一个很有用的工具，`cygstart`，可以使用默认的程序打开任意文件，以及使用超级管理员运行命令（`cygstart --action=runas`）等。但msys2每个这个命令，使用超级管理员运行命令的功能几乎没有替代品。

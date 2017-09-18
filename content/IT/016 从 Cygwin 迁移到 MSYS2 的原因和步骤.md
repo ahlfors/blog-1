@@ -1,5 +1,5 @@
 Title: 从 Cygwin 迁移到 MSYS2 的原因和步骤
-Date: 2017-09-18 20:29
+Date: 2015-05-23 23:14
 Category: IT
 
 ## 为什么从cygwin迁移到msys2

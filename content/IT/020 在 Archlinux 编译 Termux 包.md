@@ -1,5 +1,5 @@
 Title: 在 Archlinux 编译 Termux 包
-Date: 2017-09-18 20:29
+Date: 2016-04-04 20:05
 Category: IT
 
 [Termux](https://termux.com/) 是 Android 上的一个非常强大的终端模拟器。强大之处在于支持使用 apt 安装 zsh、git、vim、python、ruby、nodejs、openssh、gcc、golang 等几乎所有常用的终端软件，从此不用忍受功能孱弱的 busybox。

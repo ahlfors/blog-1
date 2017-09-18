@@ -1,5 +1,5 @@
 Title: 使用 wsl terminal 更好地体验 Win 10 WSL 终端环境
-Date: 2017-09-18 20:29
+Date: 2017-09-17 17:23
 Category: IT
 
 WSL 从最初功能不全 bug 遍地都是，到现在除了少数几个比较顽固的 bug 外，基本足以正常使用了。但自带终端模拟器的体验依然非常糟糕，而且在可以预期的未来都不会有太大的长进了。我是从去年 8 月开始开发 [wsl-terminal](https://goreliu.github.io/wsl-terminal/)（[中文页面](https://goreliu.github.io/wsl-terminal/README.zh_CN.html)）的，期间因为想不到可以添加什么功能而搁置了比较长时间。最近心血来潮，添加了很多实用功能，用户体验也会上升很多。
