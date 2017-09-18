@@ -33,5 +33,5 @@ DEFAULT_PAGINATION = 100
 #RELATIVE_URLS = True
 
 STATIC_PATHS = ['images']
-THEME = 'pelican-twitchy'
+THEME = 'theme'
 DISPLAY_PAGES_ON_MENU = False
