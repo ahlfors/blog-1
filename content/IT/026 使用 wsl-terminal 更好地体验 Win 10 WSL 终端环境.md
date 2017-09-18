@@ -1,4 +1,4 @@
-Title: 使用 wsl terminal 更好地体验 Win 10 WSL 终端环境
+Title: 使用 wsl-terminal 更好地体验 Win 10 WSL 终端环境
 Date: 2017-09-17 17:23
 Category: IT
 
