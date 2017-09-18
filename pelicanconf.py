@@ -37,3 +37,4 @@ STATIC_PATHS = ['images']
 THEME = 'theme'
 DISPLAY_PAGES_ON_MENU = False
 # SITESUBTITLE =
+PYGMENTS_STYLE = "default"
