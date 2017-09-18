@@ -32,6 +32,7 @@ DEFAULT_PAGINATION = 100
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
+DEFAULT_DATE_FORMAT = "%Y-%m-%d %H:%M"
 STATIC_PATHS = ['images']
 THEME = 'theme'
 DISPLAY_PAGES_ON_MENU = False
