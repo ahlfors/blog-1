@@ -36,3 +36,4 @@ DEFAULT_DATE_FORMAT = "%Y-%m-%d %H:%M"
 STATIC_PATHS = ['images']
 THEME = 'theme'
 DISPLAY_PAGES_ON_MENU = False
+# SITESUBTITLE =
