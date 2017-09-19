@@ -19,13 +19,10 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-#LINKS = (('GitHub', 'https://goreliu.github.io/'),
-#         ('wsl-terminal', 'https://goreliu.github.io/wsl-terminal'))
-
 # Social widget
-#SOCIAL = (('You can add links in your config file', '#'),
-#          ('Another social link', '#'),)
+SOCIAL = (('GitHub', 'https://github.com/goreliu'),
+        ('微博', 'http://weibo.com/ly50247'),
+        )
 
 DEFAULT_PAGINATION = 100
 
@@ -35,6 +32,6 @@ DEFAULT_PAGINATION = 100
 DEFAULT_DATE_FORMAT = '%Y-%m-%d %H:%M'
 STATIC_PATHS = ['images']
 THEME = 'theme'
-DISPLAY_PAGES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = True
 PYGMENTS_STYLE = 'default'
 CUSTOM_CSS = 'theme/css/github.css'
