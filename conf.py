@@ -28,6 +28,9 @@ DEFAULT_PAGINATION = 100
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
+EXTRA_PATH_METADATA = {
+        'extras/favicon.ico' : {'path': 'favicon.ico'},
+        }
 DEFAULT_DATE_FORMAT = '%Y-%m-%d %H:%M'
 STATIC_PATHS = ['images']
 THEME = 'theme'
