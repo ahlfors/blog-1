@@ -93,7 +93,7 @@ h5 {
 }
 h6 {
    font-size: 1em;
-    color: #777;
+   color: #777;
 }
 p,
 blockquote,
@@ -359,4 +359,8 @@ header, .context-menu, .megamenu-content, footer{
 
 .md-lang {
     color: #b4654d;
+}
+
+body {
+    font-size: 1.6em;
 }
