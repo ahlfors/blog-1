@@ -20,8 +20,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('GitHub', 'https://goreliu.github.io/'),
-         ('wsl-terminal', 'https://goreliu.github.io/wsl-terminal'))
+#LINKS = (('GitHub', 'https://goreliu.github.io/'),
+#         ('wsl-terminal', 'https://goreliu.github.io/wsl-terminal'))
 
 # Social widget
 #SOCIAL = (('You can add links in your config file', '#'),
@@ -32,9 +32,9 @@ DEFAULT_PAGINATION = 100
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-DEFAULT_DATE_FORMAT = "%Y-%m-%d %H:%M"
+DEFAULT_DATE_FORMAT = '%Y-%m-%d %H:%M'
 STATIC_PATHS = ['images']
 THEME = 'theme'
 DISPLAY_PAGES_ON_MENU = False
-# SITESUBTITLE =
-PYGMENTS_STYLE = "default"
+PYGMENTS_STYLE = 'default'
+CSS_FILE = 'github.css'
