@@ -32,7 +32,8 @@ EXTRA_PATH_METADATA = {
         'extras/favicon.ico' : {'path': 'favicon.ico'},
         }
 DEFAULT_DATE_FORMAT = '%Y-%m-%d %H:%M'
-STATIC_PATHS = ['images']
+ARTICLE_EXCLUDES = ['apps']
+STATIC_PATHS = ['images', 'apps']
 THEME = 'theme'
 DISPLAY_PAGES_ON_MENU = True
 PYGMENTS_STYLE = 'default'
