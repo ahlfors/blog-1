@@ -89,9 +89,9 @@
         <!-- Sidebar -->
         <div id="sidebar-wrapper-small" class="twitchy-background">
             <ul id="accordion-small" class="sidebar-nav sidebar-nav-small">
-                {{ nav_small_li(SITEURL, SITENAME, '<span class="glyphicon glyphicon-home"></span>') }}
+                {{ nav_small_li(SITEURL, SITENAME, '<span class="fa fa-home"></span>') }}
                 <li class="nav-divider"></li>
-                {{ nav_small_li(SITEURL + '/' + ARCHIVES_URL | default('archives.html'), 'Recent Articles', '<span class="glyphicon glyphicon-th-list"></span>') }}
+                {{ nav_small_li(SITEURL + '/' + ARCHIVES_URL | default('archives.html'), 'Recent Articles', '<span class="fa fa-list-ul"></span>') }}
                 
                 {% if SHARE %}
                 <li class="nav-divider"></li>
@@ -143,7 +143,7 @@
                     <a href="{{ SITEURL }}/">
                         {% if SITELOGO %}<img src="{{ SITEURL }}/{{ SITELOGO }}" width="{{ SITELOGO_SIZE }}" alt="Sitelogo"/> {% endif %}
                         {% if not HIDE_SITENAME %}
-                            <span class="glyphicon glyphicon-home padding-small"></span>
+                            <span class="fa fa-home padding-small"></span>
                             {{ SITENAME }}
                         {% endif %}
                     </a>
@@ -152,7 +152,7 @@
                     <li class="nav-divider"></li>
                     <li>
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapse-latest">
-                            <span class="glyphicon glyphicon-th-list padding-small"></span>
+                            <span class="fa fa-list-ul padding-small"></span>
                             最近
                         </a>
                     </li>
@@ -175,7 +175,7 @@
                 {% else %}
                     <li>
                         <a href="{{ SITEURL }}/{{ ARCHIVES_URL | default('archives.html') }}">
-                            <span class="glyphicon glyphicon-th-list padding-small"></span>
+                            <span class="fa fa-list-ul padding-small"></span>
                             最近
                         </a>
                     </li>
@@ -308,8 +308,8 @@
         <!-- /#sidebar-wrapper -->
         <!-- open/close sidebar -->
         <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">
-            <span id="right-arrow" class="glyphicon glyphicon-chevron-right"  title="expand sidebar"></span>
-            <span id="left-arrow" class="glyphicon glyphicon-chevron-left" title="minimize sidebar"></span>
+            <span id="right-arrow" class="fa fa-chevron-right"  title="expand sidebar"></span>
+            <span id="left-arrow" class="fa fa-chevron-left" title="minimize sidebar"></span>
         </a>
        <!-- /open/close sidebar -->
 
