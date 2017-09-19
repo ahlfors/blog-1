@@ -37,4 +37,4 @@ STATIC_PATHS = ['images']
 THEME = 'theme'
 DISPLAY_PAGES_ON_MENU = False
 PYGMENTS_STYLE = 'default'
-CSS_FILE = 'github.css'
+CUSTOM_CSS = 'theme/css/github.css'
