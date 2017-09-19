@@ -19,10 +19,9 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Social widget
-SOCIAL = (('GitHub', 'https://github.com/goreliu'),
-        ('微博', 'http://weibo.com/ly50247'),
-        )
+#SOCIAL = (('GitHub', 'https://github.com/goreliu'),
+#        ('微博', 'http://weibo.com/ly50247'),
+#        )
 
 DEFAULT_PAGINATION = 100
 
