@@ -276,3 +276,9 @@ grep "aaa" file -lZ | xargs -0 rm
 http://www.jb51.net/article/72112.htm
 
 http://man.linuxde.net/grep
+
+http://www.linuxidc.com/Linux/2017-09/146645.htm
+
+http://linux.51yip.com/search/grep
+
+http://blog.csdn.net/nixawk/article/details/24235239
